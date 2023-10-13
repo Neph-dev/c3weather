@@ -9,6 +9,7 @@ const App = () => {
   return (
     <div className="App">
       <img src={rain} alt='' className='background' />
+      {/* Add time component here */}
       <Weather />
     </div>
   )
