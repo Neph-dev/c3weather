@@ -42,7 +42,7 @@ const Weather = () => {
                             Feels like: {Math.round(weatherData.main?.feels_like)}°
                         </div>
                         <div className='weather-glass-body-content-description'>
-                            Humidity: {weatherData.main?.humidity}%
+                            Humidity: {weatherData.main?.feels_like}%
                         </div>
                     </div>
                     <div>
