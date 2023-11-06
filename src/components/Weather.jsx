@@ -8,7 +8,7 @@ import { BsFillCloudLightningRainFill } from 'react-icons/bs'
 const Weather = () => {
 
     const baseURL = "https://api.openweathermap.org/data/2.5/weather"
-    const APIKey = "bc9ace9cbb93f58311fd175226590e36"
+    const APIKey = ""
 
     const [weatherData, setWeatherData] = useState({})
 
